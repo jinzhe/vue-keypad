@@ -1,0 +1,35 @@
+{
+  "name": "vue-keypad",
+  "version": "1.0.0",
+  "description": "基于 Vue.js 的模拟数字键盘插件",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinzhe/vue-keypad.git"
+  },
+  "keywords": [
+    "Vue",
+    "Plugin",
+    "keypad"
+  ],
+  "author": "zee kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jinzhe/vue-keypad/issues"
+  },
+  "homepage": "https://zee.kim",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "rollup": "^0.41.4",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-uglify": "^1.0.1",
+    "rollup-plugin-vue": "^4.7.2",
+    "vue-template-compiler": "^2.6.7"
+  }
+}
