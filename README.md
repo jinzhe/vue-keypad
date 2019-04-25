@@ -20,7 +20,7 @@ Vue.use(vueKeypad)
 ```HTML
 <div id="app">
     <div @click="input()">${{money}}</div>
-    <keypad :show="keypad.show" @input="input()"></keypad>
+    <keypad :show="keypad.show" @input="keypad.input"></keypad>
 </div>
 ```
 
@@ -31,9 +31,7 @@ export default {
         money:"",
         keypad:{
             show:false,
-            input:(value)=>{
-                this.form.spentAmount=value;
-            }
+            input:(value)=>{}
         },
     },
     methods:{
