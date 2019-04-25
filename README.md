@@ -6,7 +6,7 @@ vue-keypad
 ## 安装
 
 ```sh
-npm install --save vue-keypad
+npm install --save @zee.kim/vue-keypad
 ```
 
 ## 使用

@@ -1,5 +1,6 @@
 {
-  "name": "vue-keypad",
+  "private": false,
+  "name": "@zee.kim/vue-keypad",
   "version": "1.0.0",
   "description": "基于 Vue.js 的模拟数字键盘插件",
   "main": "src/index.js",
