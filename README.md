@@ -13,7 +13,7 @@ npm install --save @zee.kim/vue-keypad
 首先在项目的入口文件中引入, 调用 Vue.use 安装。
 
 ```javascript
-import vue-keypad from 'vue-keypad'
+import vue-keypad from '@zee.kim/vue-keypad'
 Vue.use(vue-keypad)
 ```
 
